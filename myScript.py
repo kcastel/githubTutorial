@@ -7,6 +7,7 @@ def my_function(matrix1,matrix2):
     try:
         matrix1*matrix2
     except ValueError:
+        print("matrices are not aligned")
         return None
 
 print(my_function(my_matrix,my_second_matrix))
